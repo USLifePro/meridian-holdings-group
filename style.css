@@ -1475,11 +1475,12 @@ button {
 }
 
 .legal-container {
-    margin-top: 100px;
+    text-align: left;
+    position: relative;
 }
 .legal-content {
     background: var(--themeWhite);
-    padding: 50px;
+    padding: 8rem 5% 4rem;
 }
 .legal-content h2 {
     color: var(--themeDarkBlue);
