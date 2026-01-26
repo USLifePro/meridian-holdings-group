@@ -1279,7 +1279,7 @@ button {
 /* Team Grid */
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 3rem;
     margin-top: 3rem;
 }
@@ -1297,12 +1297,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 4px 20px color-mix(in srgb, var(--themeBlack) 10%, transparent);
 }
 
 .headshot-placeholder img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
 }
 
 .team-info {
@@ -1391,12 +1393,15 @@ button {
 
 .team-member-image {
     width: 100%;
+    box-shadow: 0 4px 20px color-mix(in srgb, var(--themeBlack) 10%, transparent);
+
 }
 
 .team-member-image img {
     width: 100%;
     height: 500px;
     object-fit: cover;
+    object-position: top;
     display: block;
 }
 
@@ -1448,12 +1453,12 @@ button {
     .team-member-profile {
         grid-template-columns: 1fr;
         gap: 2rem;
-        text-align: center;
+        text-align: left;
     }
     
     .team-member-image {
         max-width: 400px;
-        margin: 0 auto;
+        margin: 0;
     }
     
     .team-member-image img {
