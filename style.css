@@ -1290,7 +1290,7 @@ button {
 
 .headshot-placeholder {
     width: 100%;
-    aspect-ratio: 1/1.2;  /* Creates a slightly taller than square ratio */
+    height: 450px;
     margin: 0 auto 1.5rem;
     background-color: color-mix(in srgb, var(--themeLightBlue) 20%, transparent);
     overflow: hidden;
@@ -1344,7 +1344,7 @@ button {
     }
     
     .headshot-placeholder {
-        height: 350px;
+        height: 550px;
     }
 }
 
@@ -1719,4 +1719,3 @@ button {
     margin-bottom: 20px;
     line-height: 1.6;
 }
-
